@@ -5,6 +5,9 @@ import java.util.List;
 
 public class Main {
 //Полностью рабочая версия
+//    https://www.youtube.com/watch?v=iLnNqqom5KY
+//    отдельная благодарность создателю этого видео
+
     public static void main(String[] args) {
         String expressionText = "122.2 + 150 + 5 *(5 + 15) ";
         List<Lexeme> lexemes = lexAnalyze(expressionText);
